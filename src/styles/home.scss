@@ -1,0 +1,30 @@
+.mast-header{
+    position: absolute;
+    top: 0;left: 0;
+    padding: 10px;
+    width: 100%;
+    z-index: 2;
+    img{
+        width: 160px;
+        height: auto;
+        display: block;
+        @include isMobile{
+            width: 90px;
+        }
+    }
+}
+.home-main{
+    .page__section{
+        height: 100vh;
+        min-height: 0;
+        @include isMobile{
+            height: auto;
+            min-height: none
+        }
+    }
+    @import "./landing";
+    @import "./works";
+    @import "./service";    
+    @import "./skills";    
+    @import "./contact";  
+}

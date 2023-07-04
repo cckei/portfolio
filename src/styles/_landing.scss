@@ -1,0 +1,36 @@
+.section--intro{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+    .section__content{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        .text{
+            font-size: var(--fontsize-subtitle);
+            font-weight: 300;
+            line-height: var(--lineheight-heading);
+        }
+        .dot{
+            width: 0.8em;
+            height: 0.8em;
+            display: inline-block;
+            vertical-align: middle;
+            background: black;
+            border-radius: 50%;
+        }   
+    }
+    @include isMobile{
+        min-height: 100vh;
+        padding: var(--space-lg) 0;
+        align-items: flex-end;
+        .section__content{
+            width: 100%;
+            padding: 0 var(--gutter);
+            .text{
+                font-size: 2.5rem;
+            }
+        }
+    }
+}
