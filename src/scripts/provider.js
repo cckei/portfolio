@@ -18,17 +18,6 @@ export const Provider = ({children}) => {
   }
   const [state, dispatch] = useReducer(reducer, initialState);
 
-  // useEffect(() => {
-  //   const id = router.query.work;
-  //   if(id) {
-  //     const work = Data.filter(item=>item.id == id)[0];
-  //     dispatch({
-  //       type: "SHOW_WORK",
-  //       payload: work
-  //     });
-  //   }
-  // }, [router.query.work]);
-
   return (
     <Context.Provider value={[state, dispatch]}>  
         {children}

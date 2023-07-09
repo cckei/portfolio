@@ -62,7 +62,7 @@ const Works = (  ) => {
       }
     }
     showWorkByquery();
-  }, [works])
+  }, [router.query.work])
 
   const fetchData = async () => {
     const res = await fetch("/api/work", {

@@ -208,10 +208,14 @@
             position: relative;
             background: black;
             flex: 0 0 50%;
+            p{
+                @apply mb-lg;
+            }
             img{
                 display: block;
                 width: 80%;
-                @apply mt-sm;
+                background: #111;
+                @apply mt-sm p-sm;
             }
             video{
                 display: block;
@@ -224,6 +228,11 @@
             height: 100%;
             overflow-x: hidden;
             overflow-y: auto;
+            .col-details{
+                img{
+                    width: 90%;
+                }
+            }
             .col-cover{
                 height: 100vh;
             }

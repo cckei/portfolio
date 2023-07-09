@@ -104,6 +104,14 @@ const Data = [{
         agency: "TBWA",
         url: "https://www.kudosproductions.com/en-gb/",
         type: "website",
+        desc: `<p>We have built a website for Kudos who aspire to be the most artist-focused studio in the world, creating an environment where the top tier of talent can focus on honing their skills and leveraging their creative potential to make outstanding experiences for Riot's players.</p>
+        <p>Lots of visual effect including parallax, sticky scrolling have been used in the website to enhance user expereince.</p>
+        <img src="/assets/images/works/kudos/img1.jpg" alt="kudos web screenshot" /><br />
+        <img src="/assets/images/works/kudos/img2.jpg" alt="kudos web screenshot" /><br />
+        <img src="/assets/images/works/kudos/img3.jpg" alt="kudos web screenshot" /><br />
+        <img src="/assets/images/works/kudos/img4.jpg" alt="kudos web screenshot" /><br />
+        <img src="/assets/images/works/kudos/img5.jpg" alt="kudos web screenshot" /><br />
+        `,
         media: {
             type: "video",
             url: "/assets/media/kudos.mp4"
@@ -117,6 +125,12 @@ const Data = [{
         agency: "Mirum",
         type: "Corporate Website",
         url: "https://www.regza.com/tv/selection-guide",
+        desc: `I have build for mirum agency for the client Regza for corporate website. Applying grid system and animation touch up for the website, which bring smooth and elegant experience to the users.</p>
+        <img src="/assets/images/works/regza/img1.jpg" alt="regza web screenshot" /><br />
+        <img src="/assets/images/works/regza/img2.jpg" alt="regza web screenshot" /><br />
+        <img src="/assets/images/works/regza/img3.jpg" alt="regza web screenshot" /><br />
+        <img src="/assets/images/works/regza/img4.jpg" alt="regza web screenshot" /><br />
+        `,
         media: {
             type: "video",
             url: "/assets/media/regza.mp4"
@@ -131,6 +145,14 @@ const Data = [{
         agency: "Mirum",
         type: "Corporate Website",
         url: "https://www.niccolohotels.com",
+        desc: `<p>Built for mirum agency for the client Wharf Hotel Group for corporate website. Clean and neat design, with smooth animation touch up, bring a seamless experience to users from exploring hotel features to booking appointment.</p>
+        <img src="/assets/images/works/wharf/img1.jpg" alt="wharf web screenshot" /><br />
+        <img src="/assets/images/works/wharf/img2.jpg" alt="wharf web screenshot" /><br />
+        <img src="/assets/images/works/wharf/img3.jpg" alt="wharf web screenshot" /><br />
+        <img src="/assets/images/works/wharf/img4.jpg" alt="wharf web screenshot" /><br />
+        <img src="/assets/images/works/wharf/img5.jpg" alt="wharf web screenshot" /><br />
+        <img src="/assets/images/works/wharf/img6.jpg" alt="wharf web screenshot" /><br />
+        `,
         media: {
             type: "",
             url: ""
@@ -144,6 +166,14 @@ const Data = [{
         agency: "Mirum",
         url: "https://veocel.com",
         type: "Corporate Website",
+        desc: `<p>Built for mirum agency for the client Veocel who make products caring you, while taking care with the environment. With the adaption of sticky scrolling, video, animation and transition, the website manage to deliver of it mission and vision to the users.</p>
+        <img src="/assets/images/works/veocel/img1.jpg" alt="veocel web screenshot" /><br />
+        <img src="/assets/images/works/veocel/img2.jpg" alt="veocel web screenshot" /><br />
+        <img src="/assets/images/works/veocel/img3.jpg" alt="veocel web screenshot" /><br />
+        <img src="/assets/images/works/veocel/img4.jpg" alt="veocel web screenshot" /><br />
+        <img src="/assets/images/works/veocel/img5.jpg" alt="veocel web screenshot" /><br />
+        <img src="/assets/images/works/veocel/img6.jpg" alt="veocel web screenshot" /><br />
+        `,
         media: {
             type: "video",
             url: "/assets/media/veocel.mp4"
